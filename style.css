@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", "sans-serif";
+  text-align: center;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.logo img {
+  width: 6rem;
+  border-radius: 50%;
+}
+.upper h1 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+.upper p {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 0.3rem;
+}
+.lower {
+  margin-top: 2.4rem;
+}
+.card {
+  width: 46rem;
+  height: 3.8rem;
+  background-color: #3c3b3d;
+  border: 2px solid #3c3b3d;
+  margin-top: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
+#card-text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 100%;
+  display: block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.card .iconify {
+  position: absolute;
+  left: 1rem;
+  font-size: 2.3rem;
+  color: #f63f07;
+}
+.card:hover {
+  background-color: transparent;
+}
+.card:hover #card-text {
+  color: #3c3b3d;
+}
+#trans-logo img {
+  width: 3.4rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0.6rem;
+  color: #f63f07;
+}
+.lower-socials {
+  margin-top: 2.5rem;
+  align-items: center;
+  display: block;
+}
+.lower-socials a {
+  font-size: 2.2rem;
+  color: rgb(61, 59, 60);
+}
+.lower-socials a:hover {
+  font-size: 2.5rem;
+}
+.lower-socials a:not(:nth-child(1)) {
+  margin-left: 0.6rem;
+}
+@media screen and (max-width: 769px) {
+  .card {
+    width: 92vw;
+  }
+}
