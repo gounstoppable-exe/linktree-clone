@@ -14,3 +14,5 @@ This is a linktree's clone made with HTML & CSS. It is made under 100 lines of C
 - [@gounstoppable](https://instagram.com/gounstoppable.exe)
 
 ## Thanks for Visiting!!
+
+![linktree-clone](https://socialify.git.ci/gounstoppable-exe/linktree-clone/image?font=Raleway&language=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
